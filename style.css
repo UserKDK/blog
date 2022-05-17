@@ -8,12 +8,12 @@ a {
 h1 {
   font-size: 45px;
   text-align: center;
-  border-bottom:1px solid red;
+  border-bottom:1px solid #bcbcbc;
   margin: 0;
   padding: 20px;
 }
 ol{
-  border-right: 1px solid red;
+  border-right: 1px solid #bcbcbc;
   width:100px;
   margin: 0;
   padding: 20px;
