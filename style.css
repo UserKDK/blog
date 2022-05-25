@@ -1,3 +1,17 @@
+.button1 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
 .utterances {
   max-width: 100% !important;
 }
