@@ -1,4 +1,3 @@
-
 .button1 {
   background-color: blue;
   border: none;
@@ -14,25 +13,30 @@
 }
 
 
-.utterances {
-  max-width: 100% !important;
-}
-
 body {
   margin: 0;
-}
-a:link, a:visited {
+  padding: 25px;
   background-color: white;
   color: black;
+  font-size: 25px;
+}
+
+
+
+a:link,
+a:visited {
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 35px;
+  color: #41adff;
+  text-decoration: none;
 }
 
-a:hover, a:active {
-  background-color: yellow;
+a:hover,
+a:active {
+  background-color: red;
 }
 
 h1 {
