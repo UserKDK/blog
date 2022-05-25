@@ -3,13 +3,14 @@
   background-color: blue;
   border: none;
   color: white;
-  padding: 30px 60px;
+  padding: 30px 45px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 35px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 105%
 }
 
 
@@ -21,12 +22,13 @@ body {
   margin: 0;
 }
 a:link, a:visited {
-  background-color: #f44336;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 35px;
 }
 
 a:hover, a:active {
@@ -43,9 +45,9 @@ h1 {
 
 ol {
   border-right: 1px solid #bcbcbc;
-  width: 100px;
+  width: 230px;
   margin: 0;
-  padding: 20px;
+  padding: 50px;
 }
 
 #grid {
@@ -58,7 +60,7 @@ ol {
 }
 
 #grid #article {
-  padding-left: 25px;
+  padding-left: 210px;
 }
 
 @media(max-width:1024px) {
