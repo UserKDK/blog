@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Home Welcome</title>
   <meta charset="utf-8">
@@ -12,35 +11,28 @@
   <div id="grid">
     <ol>
       <input type="button" value="darkmode"
-        onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white'; document.getElementsByTagName('a').forEach(element => {element.style.color = 'white'});"
+        onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white'; document.querySelectorAll('a').forEach(e => e.style.color = 'white');"
         class="button1">
       <input type="button" value="whitemode"
-        onclick="document.querySelector('body').style.backgroundColor='white';document.querySelector('body').style.color='black'; document.querySelector('a').style.color='black';"
+        onclick="document.querySelector('body').style.backgroundColor='white';document.querySelector('body').style.color='black'; document.querySelectorAll('a').forEach(e => e.style.color = 'black');"
         class="button1">
-
-     
-        <a href="1.html"> HTML </a>
-        <a href="2.html"> CSS</a>
-        <a href="3.html"> JavaScript</a>
- 
+      <a href="1.html"> HTML </a>
+      <a href="2.html"> CSS</a>
+      <a href="3.html"> JavaScript</a>
     </ol>
-    <div id="article">
-      <h2>여기가 바로 홈페이지</h2>
-      <br>메인 페이지 입니다. 웹을 기준으로 하고 있습니다.</br>
-      <br> <img src="coding.jpg" width="50%"> </br>
-    </div>
   </div>
 
-  <!-- gihub 댓글 소스-->
+  <div id="article">
+    <h2>여기가 바로 홈페이지</h2>
+    <br>메인 페이지 입니다. 웹을 기준으로 하고 있습니다.</br>
+    <br> <img src="coding.jpg" width="50%"> </br>
+  </div>
+
+  <!-- github 댓글 소스-->
   <br>
-  <script src="https://utteranc.es/client.js" repo="UserKDK/first-WEB" issue-term="pathname" theme="github-light"
-    crossorigin="anonymous" async>
-  </script>
-  <script src="https://utteranc.es/client.js" repo="userkdk/blog" issue-term="pathname" theme="github-light"
+  <script src="https://utteranc.es/client.js" repo="UserKDK/blog" issue-term="pathname" theme="github-light"
     crossorigin="anonymous" async>
   </script>
   </br>
 </body>
-
-
 </html>
