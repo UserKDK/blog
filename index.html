@@ -11,12 +11,15 @@
   <h1><a href="index.html"> WEB</a> </h1>
   <div id="grid">
     <ol>
-      <input type="button" value="darkmode"
-        onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white'; document.querySelectorAll('a').forEach(e => e.style.color = 'white');"
-        class="button1">
-      <input type="button" value="whitemode"
-        onclick="document.querySelector('body').style.backgroundColor='white';document.querySelector('body').style.color='black'; document.querySelectorAll('a').forEach(e => e.style.color = 'black');"
-        class="button1">
+        <input id="white-dark" type="button" value="whitemode" onclick="
+        if (document.querySelector('#white-dark').value ==='whitemode') {
+          document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white'; document.querySelectorAll('a').forEach(e => e.style.color = 'white');
+          document.querySelector('#white-dark').value ='darkmode';
+          } else {
+          document.querySelector('body').style.backgroundColor='white';document.querySelector('body').style.color='black'; document.querySelectorAll('a').forEach(e => e.style.color = 'black');
+          document.querySelector('#white-dark').value ='whitemode';
+        }">
+
       <a href="1.html"> HTML </a>
       <a href="2.html"> CSS</a>
       <a href="3.html"> JavaScript</a>
